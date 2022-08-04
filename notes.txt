@@ -1,0 +1,19 @@
+In VSCode on windows if you have a blank doc and want a quick bare bones html template type.
+!<tab>
+
+You can make a note or hide code by typing "<!-- --> in between it.
+<!-- I dont want this to show up or a brief description of what the code does -->
+
+To add a little picture icon up at the top in the tab by adding this code in the head. 
+<link rel="icon" type="image/png" href="images/favicon.jpg" sizes="16x16">
+
+To change what it says in the tab add this to the head
+<title> Title of the site or whatever </title>
+
+For SEO add this in the head.
+<meta name="description" content="Description of the site">
+<meta name="keywords" content="keywords,keywords,keywords,keywords,keywords">
+<meta name="author" content="Jorge Gato">
+
+If you type lorem40<tab> it generates 40 random latin words as filler
+<p>lorem40<tab><p>
