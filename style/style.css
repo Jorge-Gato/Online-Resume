@@ -68,12 +68,12 @@ h2 {
 .flexcontainer1 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 200px;
+	width: 500px;
 }
 
 .boxes {
 	height: 50px;
-	width: 100px;
+	width: 200px;
 	border: #333 solid 1px;
 }
 
