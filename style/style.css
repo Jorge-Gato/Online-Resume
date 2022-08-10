@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 12px;
@@ -19,8 +23,8 @@ h2 {
 
 main {
 	display: grid;
-	grid-template-columns: 40% 60%;
-	margin-top: 3em;
+	grid-template-columns: 45% 55%;
+	margin-top: 2em;
 }
 
 header {
@@ -33,11 +37,11 @@ section {
 }
 
 i {
-	margin-right: .5em;
+	margin-right: .1em;
 }
 
 p {
-	margin: .2em auto
+	margin: auto
 }
 
 hr {
@@ -61,24 +65,44 @@ h2 {
 	color: #1a0db9;
 }
 
-.certbox-container{
+.flexcontainer1{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 }
-
 .boxes{
-	width: 100em;
-	margin: 10px;
-	height: 100em;
-	border: 3px solid #333;
-	background-color: ##dfdfdf;
+	height: 40px;
+	width: 14em;
+	border: #333 solid 1px; 
 }
 
 .box1{
-	background: #333 url("../images/aws_logo1.png") no-repeat center;
+	background: url("../images/aws_logo1.png") center center/cover;
 }
-
-.box2{
-	background-image: url("/images/aws_logo1.png");
-
+.box2 {
+	background: url("../images/A+ LOGO.jpg") center center/cover;
+}
+.box3 {
+	background: url("../images/net+.png") center center/cover;
+}
+.box4 {
+	background: url("../images/ccna logo.png") center/cover;
+}
+.box5 {
+	background: url("../images/ccna security.png") center/cover;
+}
+.box6 {
+		background: url("../images/CCNA Wireless.png") center center/cover;
+}
+.box7{
+	background: url("../images/vmware.png") no-repeat center/cover;
+}
+.box8 {
+	background: url("../images/pfsense icon.png") center center/cover;
+}
+.box9 {
+	background: url("../images/Windows logo.png") center center/cover;
+}
+.box10 {
+	background: url("../images/html-css.jpg") center center/cover;
 }
