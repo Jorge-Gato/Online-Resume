@@ -60,3 +60,25 @@ h2 {
 	text-decoration: none;
 	color: #1a0db9;
 }
+
+.certbox-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.boxes{
+	width: 100em;
+	margin: 10px;
+	height: 100em;
+	border: 3px solid #333;
+	background-color: ##dfdfdf;
+}
+
+.box1{
+	background: #333 url("../images/aws_logo1.png") no-repeat center;
+}
+
+.box2{
+	background-image: url("/images/aws_logo1.png");
+
+}
