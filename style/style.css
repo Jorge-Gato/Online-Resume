@@ -65,44 +65,54 @@ h2 {
 	color: #1a0db9;
 }
 
-.flexcontainer1{
+.flexcontainer1 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-}
-.boxes{
-	height: 40px;
-	width: 14em;
-	border: #333 solid 1px; 
+	width: 50%;
 }
 
-.box1{
+.boxes {
+	height: 40px;
+	width: 14em;
+	border: #333 solid 1px;
+}
+
+.box1 {
 	background: url("../images/aws_logo1.png") center center/cover;
 }
+
 .box2 {
 	background: url("../images/A+ LOGO.jpg") center center/cover;
 }
+
 .box3 {
 	background: url("../images/net+.png") center center/cover;
 }
+
 .box4 {
 	background: url("../images/ccna logo.png") center/cover;
 }
+
 .box5 {
 	background: url("../images/ccna security.png") center/cover;
 }
+
 .box6 {
-		background: url("../images/CCNA Wireless.png") center center/cover;
+	background: url("../images/CCNA Wireless.png") center center/cover;
 }
-.box7{
+
+.box7 {
 	background: url("../images/vmware.png") no-repeat center/cover;
 }
+
 .box8 {
 	background: url("../images/pfsense icon.png") center center/cover;
 }
+
 .box9 {
 	background: url("../images/Windows logo.png") center center/cover;
 }
+
 .box10 {
 	background: url("../images/html-css.jpg") center center/cover;
 }
