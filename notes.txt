@@ -17,3 +17,5 @@ For SEO add this in the head.
 
 If you type lorem40<tab> it generates 40 random latin words as filler
 <p>lorem40<tab><p>
+
+my code works good on my local pc but in github its off
