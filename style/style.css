@@ -72,19 +72,18 @@ h2 {
 
 .boxes {
 	margin: 1.5px;
-	border: #333 solid 1px;
 	background-position: center center;
 	background-size: cover;
-	height: 2em;
+	height: 3em;
 	width: 10em;
 }
 
 .box1 {
-	background: url("../images/aws_logo1.png")center center/cover;
+	background: url("../images/aws.png")center center/cover;
 }
 
 .box2 {
-	background: url("../images/A+ LOGO.jpg") center center/cover;
+	background: url("../images/A+.jpg") center center/cover;
 }
 
 .box3 {
@@ -92,15 +91,15 @@ h2 {
 }
 
 .box4 {
-	background: url("../images/ccna logo.png") center center/cover;
+	background: url("../images/ccna.png") center center/cover;
 }
 
 .box5 {
-	background: url("../images/ccna security.png") center center/cover;
+	background: url("../images/ccna_s.png") center center/cover;
 }
 
 .box6 {
-	background: url("../images/CCNA Wireless.png") center center/cover;
+	background: url("../images/CCNA_W.png") center center/cover;
 }
 
 .box7 {
@@ -108,11 +107,11 @@ h2 {
 }
 
 .box8 {
-	background: url("../images/pfsense icon.png") center center/cover;
+	background: url("../images/pfsense.png") center center/cover;
 }
 
 .box9 {
-	background: url("../images/Windows logo.png") center center/cover;
+	background: url("../images/Windows.png") center center/cover;
 }
 
 .box10 {
