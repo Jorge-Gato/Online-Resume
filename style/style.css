@@ -72,6 +72,7 @@ h2 {
 
 .boxes {
 	margin: 1.5px;
+	border: #333 solid 1px;
 	background-position: center center;
 	background-size: cover;
 	height: 3em;
