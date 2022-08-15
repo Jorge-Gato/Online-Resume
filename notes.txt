@@ -1,3 +1,5 @@
+I don't get it. The Cert boxes do not look the same on my computer as it does online. It's kinda driving me crazy.
+
 In VSCode on windows if you have a blank doc and want a quick bare bones html template type.
 !<tab>
 
