@@ -71,50 +71,60 @@ h2 {
 }
 
 .boxes {
-	margin: 1.5px;
+	margin: .5px;
 	border: #333 solid 1px;
 	background-position: center center;
 	background-size: cover;
-	height: 3em;
-	width: 10em;
+	height: 5em;
+	width: 15em;
 }
 
 .box1 {
 	background: url("../images/aws.png")center center/cover;
+	padding: 5px;
 }
 
 .box2 {
 	background: url("../images/A+.jpg") center center/cover;
+	padding: 5px;
 }
 
 .box3 {
 	background: url("../images/net+.jpg") center center/cover;
+	padding: 5px;
 }
 
 .box4 {
 	background: url("../images/ccna.png") center center/cover;
+	padding: 5px;
 }
 
 .box5 {
 	background: url("../images/ccna_s.png") center center/cover;
+	padding: 5px;
 }
 
 .box6 {
 	background: url("../images/CCNA_W.png") center center/cover;
+	padding: 5px;
 }
 
 .box7 {
 	background: url("../images/vmware.png") center center/cover;
+	padding: 5px;
 }
 
 .box8 {
 	background: url("../images/pfsense.png") center center/cover;
+	padding: 5px;
 }
 
 .box9 {
 	background: url("../images/Windows.png") center center/cover;
+	padding: 5px;
 }
 
 .box10 {
 	background: url("../images/html-css.jpg") center center/cover;
+	padding: 5px;
 }
