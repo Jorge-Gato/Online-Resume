@@ -81,7 +81,7 @@ h2 {
 
 .box1 {
 	background: url("../images/aws.png")center center/cover;
-	padding: 5px;
+	
 }
 
 .box2 {
@@ -96,7 +96,7 @@ h2 {
 
 .box4 {
 	background: url("../images/ccna.png") center center/cover;
-	padding: 5px;
+
 }
 
 .box5 {
@@ -111,7 +111,7 @@ h2 {
 
 .box7 {
 	background: url("../images/vmware.png") center center/cover;
-	padding: 5px;
+	
 }
 
 .box8 {
@@ -126,5 +126,5 @@ h2 {
 
 .box10 {
 	background: url("../images/html-css.jpg") center center/cover;
-	padding: 5px;
+
 }
