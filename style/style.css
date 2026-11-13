@@ -23,7 +23,7 @@ h2 {
 
 main {
 	display: grid;
-	grid-template-columns: 45% 55%;
+	grid-template-columns: minmax(0, 45%) minmax(0, 55%);
 	margin-top: 2em;
 }
 
@@ -58,63 +58,98 @@ h2 {
 
 #mainLeft {
 	border-right: 1px solid lightgray;
+	min-width: 0;
+}
+
+#mainRight {
+	min-width: 0;
+}
+
+/* The original list used a br between items. br is not allowed in ul, so the same one-line gap is set here. */
+#mainRight li:not(:last-child) {
+	margin-bottom: 1lh;
+}
+
+#mainRight ul {
+	padding-bottom: 1lh;
 }
 
 #mainLeft a {
 	text-decoration: none;
 	color: #1a0db9;
+	overflow-wrap: break-word;
 }
 
 .gridcontainer1 {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 4px;
+	width: 100%;
+}
+
+.gridcontainer1 > a {
+	display: block;
+	min-width: 0;
 }
 
 .boxes {
-	margin: .5px;
+	box-sizing: border-box;
+	width: 100%;
+	aspect-ratio: 3 / 1;
 	border: #333 solid 1px;
-	background-position: center center;
-	background-size: cover;
-	height: 5em;
-	width: 15em;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
 .box1 {
-	background: url("../images/aws.png")center center/cover;
+	background-image: url("../images/aws.png");
 }
 
 .box2 {
-	background: url("../images/A+.jpg") center center/cover;
+	background-image: url("../images/A+.jpg");
 }
 
 .box3 {
-	background: url("../images/Net+.jpg") center center/cover;
+	background-image: url("../images/Net+.jpg");
 }
 
 .box4 {
-	background: url("../images/CCNA.png") center center/cover;
+	background-image: url("../images/CCNA.png");
 }
 
 .box5 {
-	background: url("../images/ccna-s.png") center center/cover;
+	background-image: url("../images/ccna-s.png");
 }
 
 .box6 {
-	background: url("../images/ccna-w.png") center center/cover;
+	background-image: url("../images/ccna-w.png");
 }
 
 .box7 {
-	background: url("../images/vmware.png") center center/cover;
+	background-image: url("../images/vmware.png");
 }
 
 .box8 {
-	background: url("../images/pfsense.png") center center/cover;
+	background-image: url("../images/pfsense.png");
 }
 
 .box9 {
-	background: url("../images/Windows.png") center center/cover;
+	background-image: url("../images/Windows.png");
 }
 
 .box10 {
-	background: url("../images/html-css.jpg") center center/cover;
+	background-image: url("../images/html-css.jpg");
+}
+
+@media (max-width: 640px) {
+	main {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	#mainLeft {
+		border-right: none;
+		border-bottom: 1px solid lightgray;
+	}
 }
